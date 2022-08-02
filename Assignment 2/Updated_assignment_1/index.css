@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.intro{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    color: rgb(29, 28, 26);
+    font-weight: bold;
+    font-size: x-large;
+    word-wrap: break-word;
+  }
+  div.intro > video {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    opacity: 60%;
+  }
+  .navbar{
+    width: 100%;
+    position: absolute;
+    z-index: 10000;
+    justify-content: center;
+    align-content: space-around;
+    background-color: rgb(85, 146, 121);
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    
+    justify-items: center;
+    width: 70%;
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+   font-size:20px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  .active{
+  background-color: gray;
+  color: white;
+  }
+  li a:hover {
+    background-color: orange;
+    color: white;
+  }
+
+  .Record{
+    background-color: gainsboro;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+  }
+  table{
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    vertical-align: middle;
+    width: 70%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: gainsboro;
+  
+  }
+
+  tr:nth-child(even){
+    background-color: #96D4D4;
+    border: 1px solid none;   
+    padding: 8px;
+  }
+ 
+  .contact_box
+  {
+    vertical-align: middle;
+   
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color:aquamarine;
+    padding: 10px;
+    padding-top: 20px;
+  }
+  .contact-item{
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+  }
+.contact-item img{
+    height: 40px;
+    width: 40px;
+    align-items: center;
+}
+  form
+  {
+    display: inline-block;
+    margin-left: 25%;
+    
+    text-align: left;
+    width: 350px;
+  }
+ .textarea{
+    display: block;
+    height: 50px;
+    vertical-align:middle;
+ }
+  
+ .campus,.others{
+    
+text-align: center;
+background-color: gainsboro;
+  font-size: 2.5rem;
+  
+ }
+ .hh{
+    text-align: center;
+      font-size: 2.5rem;
+      background-color: #96D4D4;
+ }
+ .staff{
+    vertical-align: middle;
+    display: flex;
+    justify-content: space-around;
+    background-color: #96D4D4;
+ }
+ .staff-items{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+    padding: 100px;
+ }
+ .campus>video,iframe{
+    border-radius: 20px;
+    box-shadow: 0px 5px 8px blue, 0px 6px 8px red;
+    
+ }
